@@ -2,22 +2,22 @@
 import re
 
 text  ="""
-Zamontować cewnik na wideoskop. Przygotować wideoskop. Przysunąć przedmiot do wideoskop.
-Położyć przy wideoskop lub przed wideoskop lub nad wideoskop lub też pod wideoskop. Bez wideoskop.
-Trzymać daleko od wideoskop.
+Zamontować cewnik na endoskop. Przygotować endoskop. Przysunąć przedmiot do endoskop.
+Położyć przy wideoskop lub przed endoskop lub nad endoskop lub też pod endoskop. Bez endoskop.
+Trzymać daleko od endoskop.
 """
-word ="wideoskop" #<subst:sg:nom:m1>
+word ="endoskop|gen:u|dat:owi|acc:|inst:em|loc:ie|" #<subst:sg:nom:m1>
 
 #deklinacja r.m. l.poj. nieżywotne typ 1
 
-mianownik = ""
-dopełniacz = "u"
-celownik ="owi"
-biernik = mianownik
-narzędnik ="em"
-miejscownik ="ie"
+nom = ""
+gen = "u"
+dat ="owi"
+acc = nom
+inst ="em"
+loc ="ie"
 
-Regex = re.compile(r'\s\w+\swideoskop') #TODO dodać jeszcze spację/kropkę/przecinek na końcu, żeby nie odmieniać już odmienionych rzeczowników
+Regex = re.compile(r'\s\w+\sendoskop') #TODO dodać jeszcze spację/kropkę/przecinek na końcu, żeby nie odmieniać już odmienionych rzeczowników
 list = Regex.findall(text)
 print(Regex.findall(text))
 
