@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88acbe9-ca63-4a44-9d2a-7d3f20dfac62" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.~lock.Deklinacja.odt#" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Deklinacja.odt" afterPath="$PROJECT_DIR$/Deklinacja.odt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.~lock.Deklinacja.odt#" afterPath="$PROJECT_DIR$/.~lock.Deklinacja.odt#" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wideoskop.py" afterPath="$PROJECT_DIR$/wideoskop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LanguageTool.py" afterPath="$PROJECT_DIR$/LanguageTool.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="wideoskop.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wideoskop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="31" column="11" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="558">
+              <caret line="31" column="11" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -33,8 +33,8 @@
       <file leaf-file-name="LanguageTool.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LanguageTool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="51" column="56" lean-forward="true" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+            <state relative-caret-position="468">
+              <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -81,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -109,7 +110,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +320,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -361,6 +361,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wideoskop.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LanguageTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wideoskop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LanguageTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wideoskop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LanguageTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wideoskop.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
           <folding />
@@ -393,16 +441,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wideoskop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="11" />
+        <state relative-caret-position="558">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LanguageTool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="51" column="56" lean-forward="true" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        <state relative-caret-position="468">
+          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
           <folding />
         </state>
       </provider>
