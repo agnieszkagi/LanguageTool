@@ -68,6 +68,8 @@ list_of_subst = Regex.findall(text)
 list_of_adj = Regex2.findall(text)
 print(Regex.findall(text))
 
+#add spaces before .,;: to separate the keywords
+text = text.replace(".", " .").replace(",", " ,").replace(";", " ;").replace(":", " :") # todo cudzysłów, \n itd
 list_of_words = text.split(" ")
 print(list_of_words)
 #test
