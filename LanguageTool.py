@@ -84,21 +84,35 @@ for element in list_of_subst:
 list_of_indexes.sort()
 print(list_of_indexes)
 
+# Lists of pronoms
+
+pronoms_gen = ["bez", "blisko", "dla", "do", "dookoła", "koło", "mimo", "naokoło", "obok", "od", "ode", "około",\
+               "oprócz", "prócz", "podczas", "podług", "pomimo", "poniżej", "pośrodku", "pośród", "powyżej", "spod",\
+               "spomiędzy", "sponad", "spośród", "spoza", "sprzed", "u", "według", "wobec", "wokoło", "wokół",\
+               "wskutek", "wśród", "wzdłuż", "zamiast", "znad", "zza", "naprzeciw", "naprzeciwko"]
+pronoms_dat = ["dzięki", "ku", "przeciw", "przeciw", "wbrew"]
+pronoms_acc = ["przez"]
+pronoms_inst = []
+pronoms_loc = ["przy"]
 # Decline words inside list:
 
 for index in list_of_indexes:
     print(index)
 #genitif
-    if list_of_words[index - 1].lower() == "bez" \
-            or list_of_words[index - 1].lower() == "blisko" \
-            or list_of_words[index - 1].lower() == "dla" \
-            or list_of_words[index - 1].lower() == "do" \
-            or list_of_words[index - 1].lower() == "dookoła" \
-            or list_of_words[index - 1].lower() == "koło" \
-            or list_of_words[index - 1].lower() == "koło" \
-            :
+    if list_of_words[index - 1].lower() in pronoms_gen:
         list_of_words[index] = Decline(list_of_words[index], "gen")
-
+#datif
+    elif list_of_words[index - 1].lower() in pronoms_dat:
+        list_of_words[index] = Decline(list_of_words[index], "dat")
+#accusatif
+    elif list_of_words[index - 1].lower() in pronoms_acc:
+        list_of_words[index] = Decline(list_of_words[index], "acc")
+#instrumental
+    elif list_of_words[index - 1].lower() in pronoms_inst:
+        list_of_words[index] = Decline(list_of_words[index], "inst")
+#locatif
+    elif list_of_words[index - 1].lower() in pronoms_loc:
+        list_of_words[index] = Decline(list_of_words[index], "loc")
     else:
         list_of_words[index] = Decline(list_of_words[index], "nom")
 
