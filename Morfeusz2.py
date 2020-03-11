@@ -8,9 +8,18 @@ import morfeusz2
 def Decline(keyword, case):
     ''' Decline nouns and adjectives '''
     morf = morfeusz2.Morfeusz()
-    list_of = morf.generate(keyword)
+    list_of_morphosyntactic_forms = morf.generate(keyword)
     if case == 'nom':
+        for tuple in list_of_morphosyntactic_forms:
+            #element.replace("(", "").replace(")", "")
+            #list_of_forms = element.split(",")
+            for element in tuple:
+                if "subst:sg:nom" in element:
+                    result = tuple[0]
+    return result
 
+print(Decline("endoskop", "nom"))
+#dokończę
 
 """
 def Decline(keyword, case):
