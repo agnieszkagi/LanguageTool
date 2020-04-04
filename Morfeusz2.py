@@ -146,3 +146,5 @@ for index in list_of_indexes:
         list_of_words[index] = Decline_Noun(list_of_words[index], 'nom')
 
 print(list_of_words)
+
+#TODO Funkcja odmieniająca przymiotniki
