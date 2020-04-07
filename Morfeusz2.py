@@ -2,11 +2,11 @@
 import re
 import morfeusz2
 
-# def()
+# def() decline Nouns
 
 
 def Decline_Noun(keyword, case):
-    ''' Decline nouns and adjectives '''
+    ''' Decline nouns '''
     result = ""
     morf = morfeusz2.Morfeusz()
     list_of_morphosyntactic_forms = morf.generate(keyword)
@@ -43,6 +43,16 @@ def Decline_Noun(keyword, case):
                 if "subst:sg:loc" in element:
                     result = tuple[0]
     return result
+
+# def() decline Adjectives
+# TODO zastanowić się nad wprowadzaniem osobno liczby mnogiej do słownika
+def Decline_Adj(keyword, case, genre):
+    ''' Decline adjectives '''
+    result = ""
+    morf = morfeusz2.Morfeusz()
+    list_of_morphosyntactic_forms = morf.generate(keyword)
+    return result
+
 
 #Test funkcji
 """
